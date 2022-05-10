@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+
+
+body {
+    background-image: url(img/pexels-rodrigo-souza-2531709.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    
+}
+
+header > h1 {
+   
+        background-color:rgb(240, 93, 93) ;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 20px;
+        font-size: 3em;
+        text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.247);
+        padding: 10px;
+        padding-top: 20px;
+        text-align: center;
+        
+}
+
+
+ 
+
+
+header > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    color:rgb(241, 237, 237);
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto
+}
+
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: rgba(82, 70, 70, 0.993);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.349);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main h2 {
+    font-family: var(--cor4);
+    color:rgb(34, 3, 3);
+    font-size: 1.3em;
+    background-image: linear-gradient(to right, rgba(241, 28, 28, 0.911),
+    transparent);
+    text-indent: 8px;
+}
+    main.img {
+        width: 100%;
+       
+    }
+
+  .spartano, .aquiles, .vlad, .gladiador, .ragnar{
+    height: 100%;
+      width: 300px;
+      max-width: 100%;
+      border-radius: 50%;
+  }
+
+  .vlad {
+      height: 300px;
+     
+
+  }
+
+  .spartano {
+      height: 300px;
+      
+  }
+
+  .aquiles {
+      height: 300px;
+  }
+
+  .gladiador {
+      height: 300px;
+  }
+
+  .ragnar {
+      height: 300px;
+  }
+div.video {
+    background-color: black;
+    margin-bottom: 30px;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 57%;
+position: relative;
+}    
+div.video > iframe {
+    position: absolute;
+    top:5% ;
+    left: 5%;
+    width:90% ;
+    height:90% ;
+}
+
+main p {
+    margin: 15px 0px;
+    text-align: center;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+     color: black;
+     background-color: #ee1111;  
+     border-radius: 5px;
+     box-shadow: 3px 3px 3px 3px;
+    }
+
+    aside {
+        background-color: #ca2e19;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .fot {
+        color: black;
+    }
+
+    footer {
+
+        background-color: #dd6060;
+        text-align: center;
+        padding:5px;
+        border-radius:5px ;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 30px;
+    }
